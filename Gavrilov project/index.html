@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="heme">
+        <button id="theme-toggle">
+          <img
+            src="./img/icons/icons8-луна-100.png"
+            class="theme theme_img"
+            alt="BEBRA"
+          />
+        </button>
+  
+      <ul>
+        
+<li>Skyscraper</li>
+        <li><a href="#" class="back">Главная</a></li>
+        <li><a href="./katalog_page/katalog.html" class="back">Каталог</a></li>
+        <li><a href="./page_photogallery/photogallery.html" class="back">Фотогалерея</a></li>
+      
+<button class="back"   type="button"data-bs-toggle="modal" data-bs-target="#exampleModal">
+ <img src="./img/icons/icons8-вход-100.png" alt="">Личный кабинет
+</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Вход</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       
+        <legend>Логин</legend>
+       <input type="text"  >
+       <legend>Пароль</legend>
+       <input type="text">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><a href="./admin_panel/admin.html" class="vhod">Админ-панель</a></button>
+        <button type="button" class="btn btn-primary"><a href="./lichniy_kabinet.html/" class="vhod">Войти</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <div class="Welcome">
+        <p class="Welcome_to_sait">
+          Добро пожаловать на сайт Skyscraper нашей строительной компании!
+        </p>
+        <p class="Opisanie">
+          Мы специализируемся на возведении высококачественных <br />жилых и
+          коммерческих объектов, предоставляя полный спектр <br />
+          услуг в области строительства и ремонта.
+        </p>
+        <div class="button">
+          <a href="#" class="button">Подробнее</a>
+        </div>
+        <img
+          src="./img/photos/162445938314-phonotekaorg-p-stroika-oboi-krasivo-162_1.png"
+          alt="beb"
+          class="photo_main"
+        />
+      </div>
+      <div class="section_two">
+        <div class="vopros">
+          <img src="./img/icons/icons8-вопросительный-знак-90.png" alt="" />
+          <p class="Uslugi">Какие услуги мы предоставляем?</p>
+        </div>
+        <div class="blocks">
+          <div class="one_block">
+            <img src="./img/icons/icons8-главная-100.png" alt="" /><br />-
+            Строительство домов под ключ
+          </div>
+          <div class="two_block">
+            <img src="./img/icons/icons8-здание-100.png" alt="" /><br />-
+            Проектирование зданий и сооружений
+          </div>
+          <div class="three_block">
+            <img
+              src="./img/icons/icons8-поэтажный-план-100.png"
+              alt=""
+            /><br />- Проектирование квартир
+          </div>
+          <div class="four_block">
+            <img src="./img/icons/icons8-дизайн-100.png " alt="" /><br />-
+            Ландшафтный дизайн
+          </div>
+        </div>
+      </div>
+      <div class="section_three">
+        <div class="vibor">
+          <img
+            src="./img/icons/icons8-зрители-на-местах-100.png"
+            alt=""
+          /><br />Почему выбирают нас?
+        </div>
+        <div class="home_and_slova">
+          <img
+            src="./img/photos/orig.png"
+            alt=""
+            class="home"
+          />
+          <div class="slova">
+            ✔ Многолетний опыт работы на рынке
+            <br />
+            <br />
+            ✔ Положительные отзывы клиентов
+            <br />
+            <br />
+            ✔ Доступные цены и высокое качество
+            <br />
+            <br />
+            ✔ Гарантия на все виды работ
+            <br />
+            <br />
+            ✔ Современные технологии и инновации
+            <br />
+            <br />
+            ✔ Комплексный подход
+            <br />
+            <br />
+            ✔ Профессиональная команда
+            <br />
+            <br />
+            ✔ Экологические стандарты
+            <br />
+            <br />
+            ✔ Открытость и коммуникация
+          </div>
+        </div>
+      </div>
+      <div class="section_four">
+        <p class="Novinka">У нас новинка!</p>
+        <div class="bloki">
+          <div class="blok_odin">
+            <p class="D">
+              Мы запустили новый проект: 3D печать <br />домов на специальном
+              принтере!
+            </p>
+            <img src="./img/photos/image002.gif" alt="" class="gif" />
+          </div>
+          <div class="blok_dva">
+            <p class="text_3d">
+              Серийная 3D-печать зданий становится реальностью в быстро
+              развивающейся строительной индустрии, и в этой статье мы покажем
+              проекты домов и других строений, напечатанных на промышленных 3D
+              принтерах в РФ, Китае и других странах. В статье представлено
+              видео 3D-печати домов с сайтов производителей и из других
+              источников.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="section_five">
+        <div class="slider">
+          <div class="slides">
+            <div class="slide">
+              <img
+                src="./img/icons/Group5.png"
+                alt=""
+               
+                class="Man"
+              />
+              <p class="name">Отзыв от: Михаила Степанова</p>
+              <p class="text_otziv">
+                Я недавно приобрел квартиру в новом жилом комплексе, построенном
+                компанией Skyscraper, и хотел бы поделиться своим опытом. С
+                момента первого контакта с менеджерами компании я ощутил высокий
+                уровень профессионализма. Все этапы строительства были тщательно
+                спланированы, и сроки были соблюдены в полном объеме. Качество
+                материалов и работ просто на высоте. Внутренняя отделка
+                выполнена с большим вниманием к деталям – от современных
+                сантехнических решений до энергосберегающих технологий. Кроме
+                того, общая инфраструктура комплекса, включая детские площадки и
+                зоны отдыха, создает комфортную и дружелюбную атмосферу. Я в
+                восторге от своего нового жилья и рекомендую Skyscraper всем,
+                кто ищет надежную строительную компанию.
+              </p>
+            </div>
+            <div class="slide_two">
+              <img
+                src="./img/icons/08574beb7cca9392a6d03e4d34868c82.png"
+                alt=""
+             
+                class="woman"
+              />
+              <p class="name">Отзыв от: Наталья Ковальчук</p>
+              <p class="text_otziv">
+                Мы работали с компанией Skyscraper над проектом нового офисного
+                здания и остались довольны результатом. С самого начала
+                сотрудники компании проявили инициативу и внимание к нашим
+                требованиям. Они предложили несколько интересных решений,
+                которые значительно улучшили функциональные характеристики
+                здания. Большое внимание было уделено не только архитектуре, но
+                и энергоэффективности. В итоге мы получили современное,
+                комфортное и экологичное офисное пространство. В процессе работы
+                с компанией не возникло никаких задержек, и все этапы были четко
+                согласованы. Мы высоко ценим профессионализм Skyscraper и их
+                подход к проектам.
+              </p>
+            </div>
+            <div class="slide">
+              <img
+                src="./img/icons/123421312414.png "
+                alt=""
+             
+                class="slid"
+              />
+              <p class="name">Леонид Сорокин</p>
+              <p class="text_otziv">
+                Мой опыт работы с компанией Skyscraper при строительстве
+                загородного дома оказался очень положительным. Я мечтал о доме,
+                где будет комфортно жить с семьей, и Skyscraper помогла мне
+                реализовать эту мечту. Проектирование началось с обсуждения моих
+                пожеланий. Команда архитектора предложила несколько подходящих
+                вариантов, которые идеально вписались в ландшафт. Строительство
+                шло в установленные сроки, и я всегда мог связаться с прорабом,
+                чтобы получить актуальную информацию о ходе работ. Качество
+                выполнения работ на уровне – использовались только лучшие
+                материалы. Теперь у меня есть не просто дом, а место, где я могу
+                радоваться жизни с близкими./p>
+              </p>
+            </div>
+
+            <div class="slide"></div>
+          </div>
+          <button class="buttonn prev" onclick="moveSlide(-1)">&#10094;</button>
+          <button class="buttonn next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+      </div>
+     
+      <div class="section_six"> <p class="Mesto">Оставьте заявку</p> 
+      <p class="Cvaz">
+        Оставьте ваши контакты и мы свяжемся с вами!
+      </p>
+      <form action="#" class="form">
+        <input type="text" placeholder="Фамилия Имя ">
+        <input type="number" placeholder="Ваш номер телефона">
+      <button class="otpravit">Отправить</button>
+      </form>
+   
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A601cbd54e6265ead2bd30794d716afc682f4ba58d53910a3c26b618dab790283&amp;source=constructor"  frameborder="0" class="maps"></iframe>
+
+
+
+
+      </div>
+       
+    </main>
+    <footer>
+      <p class="name_company">Skyscraper</p>
+      <ul class="spisok">
+        <li><a href="#" class="backk">О нас</a></li>
+        <li><a href="#" class="backk">Меню</a></li>
+        <li><a href="#" class="backk">Фотогалерея</a></li>
+      </ul>
+   
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
